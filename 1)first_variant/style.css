@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: brown;
+}
+
+.content {
+    margin: 100px 60px 0px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.content div {
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+
+.steps {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.steps > div {
+    border:  1px solid green;
+    height: 200px;
+    width: 240px;
+    background-color: cornflowerblue;
+}
+.step {
+    flex-grow: 1;
+    margin: 10px;
+}
+.step-point {
+    display: flex;
+}
+.forms {
+    background-color: aqua;
+}
